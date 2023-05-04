@@ -15,3 +15,26 @@ model Example {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt  gjyvgjy
 }
+model Product {
+  ProductId                 Int      @id @default(autoincrement())
+  ProductName               String   @db.VarChar(30)
+  ProductPrice              Decimal  @db.Decimal(4, 2)
+  ProductTotalQuantity      Int
+  Productdescription        String   @db.VarChar(300)
+}
+
+model Product {
+  ProductId                 Int      @id @default(autoincrement())
+  ProductName               String   @db.VarChar(30)
+  ProductPrice              Decimal  @db.Decimal(4, 2)
+  ProductTotalQuantity      Int
+  Productdescription        String   @db.VarChar(300)
+}
+model Product {
+  ProductId                 Int      @id @default(autoincrement())
+  ProductName               String   @db.VarChar(30)
+  ProductPrice              Decimal  @db.Decimal(4, 2)
+  ProductTotalQuantity      Int
+  Productdescription        String   @db.VarChar(300)
+}
+ffdc 
